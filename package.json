@@ -1,0 +1,45 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-dev": "webpack-dev-server  --config webpack/webpack.client.js",
+    "client-build": "webpack  --config webpack/webpack.client.js serve",
+    "server-build": "webpack  --config webpack/webpack.server.js"
+  },
+  "keywords": [],
+  "author": "'XL' <'2511881919@qq.com'>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.9",
+    "vue-server-renderer": "^2.6.12",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.0",
+    "webpack": "4.16.5",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "3.9.0",
+    "webpack-merge": "4.2.1"
+  },
+  "devDependencies": {
+    "and": "^0.0.3",
+    "babel-eslint": "^10.1.0",
+    "dayjs": "^1.9.6",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
