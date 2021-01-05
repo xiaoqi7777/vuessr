@@ -52,6 +52,7 @@ const j = 1;
 function fn() {
   console.log(123);
 }
+
 if (true || fn()) {
   console.log('----');
 }
