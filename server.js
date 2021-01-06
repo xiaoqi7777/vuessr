@@ -47,12 +47,3 @@
 
 // let arr = [6338632679821312]
 // console.log(arr.includes(`6338632679821312`))
-const i = 1;
-const j = 1;
-function fn() {
-  console.log(123);
-}
-
-if (true || fn()) {
-  console.log('----');
-}
